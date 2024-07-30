@@ -330,7 +330,7 @@ input[type=email]{
     }
 
     .one {
-        top: 80px;
+        top: 100px;
         padding: 0 10px;
     }
 
@@ -356,38 +356,49 @@ input[type=email]{
         margin: 10px 0;
         align-items: center;
     }
+    .side1{
+        width: 200px;
+    }
+    .side2{
+        width:200px
+    }
 
     .linez {
         display: none;
     }
+    .five{
+        height: 300px;
+    }
 
     input[type=email] {
         width: 90%;
-        margin: 10px 0;
-        left: 0;
-        top: 0;
+        margin-left: 20px;
+        position: relative;
+        bottom: 200px;
     }
 
     .bbns {
         width: 90%;
-        right: 0;
-        top: 0;
-        margin: 10px 0;
+        margin-left:20px;
     }
 
     .need {
-        font-size: 1.2em;
+        font-size: 30px;
+        color: white;
     }
 
     .needs {
-        font-size: 0.9em;
+        font-size: 20px;
     }
-
+    .Specials{
+        margin-top: 100px;
+    }
     .Specials h2 {
         font-size: 1em;
     }
 
     .Specials p {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
+
 }
