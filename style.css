@@ -287,25 +287,99 @@ input[type=email]{
 }
 
 @media (max-width: 480px) {
+    header {
+        padding: 15px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar a {
+        padding: 10px;
+        margin: 5px 0;
+        left: 0;
+    }
+
+    .one {
+        top: 100px;
+        padding: 0 10px;
+    }
+
+    .card {
+        width: 95%;
+        margin: 20px auto;
+        height: auto;
+        padding: 10px;
+    }
+
+    .contacts {
+        font-size: 1.2em;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fress, .fres {
+        margin: 10px 0;
+        align-items: center;
+    }
+    .side1{
+        width: 200px;
+    }
+    .side2{
+        width:200px
+    }
+
+    .linez {
+        display: none;
+    }
+    .five{
+        height: 300px;
+    }
+
+    input[type=email] {
+        width: 90%;
+        margin-left: 20px;
+        position: relative;
+        bottom: 200px;
+    }
+
+    .bbns {
+        width: 90%;
+        margin-left:20px;
+    }
+
     .need {
-        font-size: 1.5em;
+        font-size: 30px;
+        color: white;
     }
 
     .needs {
-        font-size: 1em;
+        font-size: 20px;
     }
-
+    .Specials{
+        margin-top: 100px;
+    }
     .Specials h2 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .Specials p {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
-    .top-btn {
-        padding: 8px 12px;
-    }
 }
 @media (max-width: 375px) {
     header {
