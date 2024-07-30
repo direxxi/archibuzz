@@ -224,3 +224,41 @@ input[type=email]{
     position: relative;
     top: 150px;
 }
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .one {
+        text-align: center;
+    }
+
+    input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .need {
+        font-size: 1.5em;
+    }
+
+    .specials h2 {
+        font-size: 1.2em;
+    }
+
+    .top-btn {
+        padding: 8px 12px;
+    }
+}
