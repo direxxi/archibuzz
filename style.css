@@ -319,6 +319,10 @@ input[type=email]{
         margin: 5px 0;
         left: 0;
     }
+       .top-btn{
+        position: relative;
+        right: -50px;
+    }
 
     .one {
         top: 100px;
